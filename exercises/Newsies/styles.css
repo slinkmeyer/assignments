@@ -1,0 +1,34 @@
+.article {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    font-family: serif;
+    background-color: darkred;
+    
+}
+
+.articleName {
+    text-align: center;
+}
+
+span.serious { 
+   text-decoration: underline
+        color: #00ff00
+}
+
+.header {
+    font-size: 30px;
+    align-content: right;
+    font-kerning: auto;
+    text-decoration: underline;
+    
+}
