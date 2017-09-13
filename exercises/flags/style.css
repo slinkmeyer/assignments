@@ -1,0 +1,36 @@
+    .Blue {
+        height: 600px;
+        width: 33%;
+        align-content: left;
+        object-position: left;
+        display: inline-block;
+        border-color: white;
+        background-color: #0000ff;
+        border-style: solid;
+        border-width: medium;
+    }
+    
+    .White {
+        height: 600px;
+        width: 33%;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: white;
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: medium;
+    }
+    
+    .Red {
+        height: 600px;
+        width: 33%;
+        position: fixed;
+        align-content: right;
+        object-position:right;
+        display: inline-block;
+        border-color: white;
+        background-color: #ff0000;
+        border-style: solid;
+        border-width: medium;
+    }

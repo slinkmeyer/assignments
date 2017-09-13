@@ -1,0 +1,42 @@
+.flagframe {
+    height: 600px;
+width: 100%;
+align-content: center;
+display: inline-block}
+
+.red {
+    height: 250px;
+    width: 60%;
+    align-content: top;
+    position: absolute;
+    display: inline-block;
+    border-color: red;
+    background-color: red;
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+}
+
+.green {
+    height: 250px;
+    width: 60%;
+    align-content: bottom;
+    position: relative;
+    display: inline-block;
+    border-color: green;
+    background-color: green;
+    border-style: solid;
+    border-width: medium;
+    border-color: green;
+}
+
+.white {
+    height: 600px;
+    width: 30%;
+    align-content: left;
+    display: inline-block;
+    border-color: white;
+    background-color: white;
+    border-style: solid;
+    border-width: medium;
+}

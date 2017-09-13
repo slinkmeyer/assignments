@@ -1,0 +1,82 @@
+    .menu {
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        align-content: top;
+        display: inline-block;
+        border-color: white;
+        background-color: darkgray;
+        border-style: solid;
+        border-width: medium;
+        border-bottom-color: darkgray;
+        border-top-color: white;
+        border-right-color: white;
+        border-left-color: white;
+    }
+    
+    .hamsters {
+        align-content: top;
+        text-align: top;
+        position: fixed;
+        font-family: sans-serif;
+        display: block;
+    }
+    
+    .body {
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .background {
+        background-color: white;
+        background-image: url("http://images.boomsbeat.com/data/images/full/1051/27-jpg.jpg");
+        display: block;
+        position: fixed;
+    }
+    
+    
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    /* Bottom left text */
+    
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        color: dimgray;
+    }
+    /* Top left text */
+    
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        color: dimgray;
+    }
+    /* Top right text */
+    
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+    /* Bottom right text */
+    
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+    /* Centered text */
+    
+    .centered {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: dimgray;
+        text-align: left
+    }

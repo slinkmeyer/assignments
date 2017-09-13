@@ -1,0 +1,35 @@
+    .Black {
+        height: 200px;
+        width: 99%;
+        align-content: top;
+        object-position: top;
+        display: inline-block;
+        border-color: black;
+        background-color: black;
+        border-style: solid;
+        border-width: medium;
+    }
+    
+    .Red {
+        height: 200px;
+        width: 99%;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: red;
+        background-color: red;
+        border-style: solid;
+        border-width: medium;
+    }
+    
+    .Yellow {
+        height: 200px;
+        width: 99%;
+        align-content: bottom;
+        object-position: bottom;
+        display: inline-block;
+        border-color: yellow;
+        background-color: yellow;
+        border-style: solid;
+        border-width: medium;
+    }
