@@ -1,0 +1,120 @@
+.sourbiscuits {
+	height: 160px;
+	width: 85vw;
+	border-width: medium;
+	border-color: lightcoral;
+	display: inline-block;
+	margin: auto;
+	border-style: solid;
+	background-color: lightcoral;
+}
+
+    
+    .pinkguy2 {
+        height: 160px;
+        width: 20vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: hotpink;
+        background-color: hotpink;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+    }
+    
+    .pinkguy3 {
+        height: 160px;
+        width: 20vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: hotpink;
+        background-color: hotpink;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+    }
+
+.pinkguy4 {
+	height: 160px;
+        width: 20vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: hotpink;
+        background-color: hotpink;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+	
+}
+
+.pinkguy5 {
+	height: 160px;
+        width: 20vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: hotpink;
+        background-color: hotpink;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+}
+
+.blueguy {
+	height: 160px;
+        width: 42vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: lightblue;
+        background-color: lightblue;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+	
+}
+.blueguy1 {
+	height: 160px;
+        width: 42vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: lightblue;
+        background-color: lightblue;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+}
+
+.greenguy {
+	height: 160px;
+        width: 60vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: chartreuse;
+        background-color: chartreuse;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+	
+}
+
+.orangeguy {
+	height: 160px;
+        width: 25vw;
+        align-content: center;
+        object-position: center;
+        display: inline-block;
+        border-color: orange;
+        background-color: orange;
+        border-style: solid;
+        border-width: medium;
+		display: inline-block
+	
+}
+
+@media screen and (max width: 1000vh )

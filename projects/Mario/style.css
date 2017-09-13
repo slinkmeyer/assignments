@@ -1,0 +1,126 @@
+* {
+   font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serifcursive";
+   font-size: scale fill;
+}
+html { 
+background: url(https://images6.alphacoders.com/332/332872.png) no-repeat center center fixed;
+ -webkit-background-size: cover;
+     -moz-background-size: cover;
+         -o-background-size: cover;
+                 background-size: cover;
+}
+
+.topofpage {
+    position: static;
+    display: block;
+    width: 100%;
+    background: url(https://i.imgur.com/tgWr7Y7.png) repeat center, top, fixed;
+    margin: 0;
+}
+
+.title {
+    color: #222222;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+body {
+  
+}
+
+
+#site {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+#email {
+   position: absolute;
+   bottom: 0px;
+   right: 42%
+}
+
+#contact {
+   position: absolute;
+   bottom: 0px;
+}
+
+#email, #contact, #site {
+   font-size: 22px;
+   margin: 50px
+}
+
+header {
+   color: white;
+   font-size: 40px;
+   text-align: center;
+}
+
+.title2 {
+    font-family: sans-serif;
+    
+    
+}
+
+#cheep-cheep {
+  position: absolute;
+    margin-top: 170px; 
+
+}
+
+#bob-omb {
+   position: absolute;
+   margin-top: 340px
+    
+   
+}
+
+#goomba {
+   position: absolute;
+    margin-top: 10px
+   
+}
+
+#goomba, #bob-omb, #cheep-cheep {
+   font-size: 12px;
+   
+}
+
+#thanks {
+   position: absolute;
+   right: 50px;
+   bottom: 100px;
+   text-decoration: underline;
+   font-size: 24px
+}
+
+#total {
+   position: absolute;
+   right: 550px;
+    top: 140px
+}
+#yeah {
+   position: absolute;
+   right: 450px;
+   top: 90px;   
+}
+
+
+#button {
+   position: absolute;
+   right: 555px;
+   top: 180px;
+}
+
+#sum {
+   position: absolute;
+   right: 525px;
+   top: 190px;
+}
+
+#signature {
+   position: absolute;
+   bottom: 0px;
+   right: 10px;
+}
