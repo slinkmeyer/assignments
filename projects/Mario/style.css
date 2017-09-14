@@ -10,13 +10,7 @@ background: url(https://images6.alphacoders.com/332/332872.png) no-repeat center
                  background-size: cover;
 }
 
-.topofpage {
-    position: static;
-    display: block;
-    width: 100%;
-    background: url(https://i.imgur.com/tgWr7Y7.png) repeat center, top, fixed;
-    margin: 0;
-}
+
 
 .title {
     color: #222222;
@@ -33,6 +27,7 @@ body {
    position: absolute;
    bottom: 0px;
    right: 0px;
+    font-family: sans-serif;
 }
 
 #email {
@@ -44,17 +39,20 @@ body {
 #contact {
    position: absolute;
    bottom: 0px;
+    font-family: sans-serif;
 }
 
 #email, #contact, #site {
    font-size: 22px;
-   margin: 50px
+   margin: 50px;
+    font-family: sans-serif
 }
 
 header {
    color: white;
    font-size: 40px;
    text-align: center;
+    font-family: sans-serif;
 }
 
 .title2 {
@@ -65,20 +63,23 @@ header {
 
 #cheep-cheep {
   position: absolute;
-    margin-top: 170px; 
+    margin-top: 170px;
+    font-family: sans-serif;
 
 }
 
 #bob-omb {
    position: absolute;
-   margin-top: 340px
+   margin-top: 340px;
+    font-family: sans-serif;
     
    
 }
 
 #goomba {
    position: absolute;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: sans-serif;
    
 }
 
