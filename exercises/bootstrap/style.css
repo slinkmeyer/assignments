@@ -1,0 +1,31 @@
+
+.col-lg-12 {
+    height: 90px;
+    background-color: #F5C6D6;
+    outline: 10px solid white;
+}
+
+.second {
+    height: 90px;
+    background-color: #EE2E84;
+    outline: 10px solid white;
+}
+
+.third {
+    height: 90px;
+    background-color: #85CFD8;
+        outline:  10px solid white;
+}
+
+.four {
+    height: 90px;
+    background-color: #8DC63F;
+    outline: 10px solid white; 
+}
+
+.fifth{
+    height: 90px;
+    background-color: #E76E34;
+    outline: 10px solid white;
+}
+
