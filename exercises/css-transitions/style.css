@@ -1,0 +1,48 @@
+.box {
+   width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-left: 150px;
+    border: 1px solid #111111;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+    border-radius: 0;
+    border-radius: 100%;
+    color: #222222;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-bottom: 50px;
+    border: 1px solid #111111;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.box2:hover {
+    box-shadow: 50px;
+    color: red;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin: 0;
+    border: 1px solid #111111;
+    transition-property: all;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}

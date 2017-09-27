@@ -1,0 +1,12 @@
+.cats {
+    margin-left: 350px;
+}
+
+#catsTwo {
+    color: aqua;
+    font-family: fantasy;
+    border: solid;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 350px;
+}
