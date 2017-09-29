@@ -1,0 +1,39 @@
+#question {
+    text-align: center;
+}
+
+#toDo {
+    text-align: center;
+    
+}
+
+#displayInitial {
+    border: solid;
+    display: inline-block;
+}
+
+#infoEnter {
+    height: 30px;
+    width: auto;
+    border: solid;
+    display: block;
+    float: center;
+    box-sizing: content-box;
+    
+}
+
+#input {
+    border-spacing: 10px;
+    padding: 1px;
+    display: inline;
+    margin: 0;
+}
+
+#button {
+    display: inline;
+    margin-bottom: 40p
+}
+
+#buttonBorder {
+    display: inline;
+}

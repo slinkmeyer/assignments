@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>To Do List</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+                <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+      <div class="container">
+    <div class="row">
+          <div class="col-lg-12" id="displayInitial">
+           <h1 id="toDo">To Do List</h1>
+           <h2 id="question">Your Daily Planner<br></h2>
+          </div>
+          </div>
+          <div class="row" id="buttonBorder">
+        <div class="col-lg-4" id="infoEnter">
+            <input id="input" class="col-lg-6" type="text" oninput="toDo()" value="New item">
+            <button id="button" class="col-sm-4">add me</button>
+        </div>
+        </div>
+        </div>
+        <container>
+          <div class="col-lg-8" id="toDoList">
+          
+          </div>
+                <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+                <script src="axios.js"></script>
+        </container>
+     </body>
+</html>
