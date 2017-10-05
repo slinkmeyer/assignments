@@ -1,0 +1,14 @@
+h1 {
+  border: solid black;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  float: right;
+}

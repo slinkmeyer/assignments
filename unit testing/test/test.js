@@ -1,10 +1,10 @@
 var chai = require("chai");
 var assert = chai.assert;
-
+//
 var calculator = require("../calc.js");
-var lastNums = require("../lastNums.js");
-var tacocat = require("../tacocat.js");
-
+//var lastNums = require("../lastNums.js");
+//var tacocat = require("../tacocat.js");
+//var isIp = require("../ipfind.js");
 describe("A calculator", function() {
     
     it("should add two numbers", function() {
@@ -28,23 +28,30 @@ describe("A calculator", function() {
     });
     
 });
+//
+//describe("index checker", function() {
+//    
+//    it("should find identical numbers at end of index", function() {
+//        assert.isTrue(lastNums.lastNums(12, 402));
+//        assert.isFalse(lastNums.lastNums(12, 403));
+//    });
+//
+//});
+//
+//describe("palindrome verify", function() {
+//    
+//    it("should see if something is a palindrome", function () {
+//        assert.equal(tacocat.palindrome("kayak"), true);
+//    });
+//    it("should have the same characters forwards and backwards", function() {
+//        assert.equal(isPlaindrome("racecar"), true);
+//    });
+//
+//});
 
-describe("index checker", function() {
-    
-    it("should find identical numbers at end of index", function() {
-        assert.isTrue(lastNums.lastNums(12, 402));
-        assert.isFalse(lastNums.lastNums(12, 403));
-    });
-
-});
-
-describe("palindrome verify", function() {
-    
-    it("should see if something is a palindrome", function () {
-        assert.equal(tacocat.palindrome("kayak"), true);
-    });
-    it("should have the same characters forwards and backwards", function() {
-        assert.equal(isPlaindrome("racecar"), true);
-    });
-
-});
+//describe("ip tester", function() {
+//    
+//    it("should test if an ip is valid", function() {
+//        assert.isTrue(isIp.validateIp(192.168.0.01), true);
+//    });
+//});

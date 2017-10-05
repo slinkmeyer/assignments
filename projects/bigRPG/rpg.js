@@ -11,96 +11,93 @@ console.log("                 You are about to embark on a serious adventure,   
 
 console.log("\n You find yourself in a small cabin, there is a fire burning, some scraps of\n food on the table and a dog chewing a bone in the corner.\n")
 
+const readlineFirst = require("readline-sync");
+const readlineSecond = require("readline-sync");
+let inventory = ["Your inventory is empty"];
+let name = readlineFirst.question("First, You'll need a name... ");
+console.log("Welcome " + name + ". You sound like a true warrior!");
 
+readlineSecond.setDefaultOptions({
+    limit: ["look", "help", "quit"]
+});
+a1 = readlineSecond.question('I am your oracle, try typing something and I\'ll guide you there.  ', {
+    trueValue: readlineSecond["help", "look"],
+    falseValue: readlineSecond["quit"]
+});
 
-var readline = require("readline-sync");
-let player = {
-    health: 100,
-    inventory: [],
-    dead = false
+if (a1 === "help") {
+    console.log("There's probably something you can use here...");
+} else if (a1 === "look") {
+    console.log("There's a knife on the table, and a coat by the door.");
+} else {
+    return false;
 }
 
-var Game = new function(stats, [inventory], dead, damage) {
-    stats = "Health",
-    inventory = ["inventory"],
-    dead = "You are dead"
-    damage = "attack"
-}
+a2 = readlineSecond.question("What would you like to do now? ", {
+    limit: ["take knife", "pet dog", "kick dog", "take coat", "check inventory", "leave house", "sleep in bed"]
+});
 
-Game.prototype.playScene = function() {
-    return this.stats
-}
-var room = readline.question("What do you want to do? ");
-while (room !== "look") {
-    console.log("You see a door to the outside, you hear the wind howling");
-    walking = readline.question("It's cozy in here, there's a storm outside ");
-
-    if (room !== "look") {
-        break;
+if (a2 === "take knife") {
+    console.log("Hardly a knife, this thing is made for butter, and it's not even good at that.\n");
+    inventory.pop(0);
+    inventory.push("'Knife' ");
+    console.log(inventory + "has just been added to your inventory.");
+} else if (a2 === "pet dog") {
+    console.log("G O O D  B O Y E");
+    inventory.pop(0);
+    inventory.push("'doggo '");
+    console.log(inventory + "has been added to your inventory.")
+} else if (a2 === "cats") {
+    return false;
+} else if (a2 === "check inventory") {
+    console.log(inventory);
+} else if (a2 === "take coat") {
+    console.log("welp, you\'re smart enough not to die of hypothermia.");
+    inventory.pop(0);
+    inventory.push("'coat '");
+    console.log(inventory + "has just been added to your inventory.")
+} else if (a2 === "leave house") {
+    console.log("it's raining really hard, that's probably not a good idea yet.")
+} else if (a2 === "sleep in bed") {
+    console.log("I probably shouldn't tell you this... but the world will be over by the time you wake up, bad call.")
+} else if (a2 === "kick dog") {
+    console.log("well aren't you F#$%&\'d up...")
+    let fight = function() {
+        
     }
+};
 
-    console.log("There's not much to do in here.");
-    console.log("");
-}
+a3 = readlineSecond.question("What would you like to do now? ", {
+  limit: ["take knife", "pet dog", "kick dog", "take coat", "check inventory", "leave house", "sleep in bed"]
+  });  
+    if (a3 === "take knife" && inventory["knife"] = true) {
+    console.log("You already have that");
+} else if (a3 === "take knife" && inventory["knife"] = false) {
+    console.log("G O O D  B O Y E");
+} else if (a2 === "cats") {
+    return false;
+} else if (a2 === "check inventory") {
+    console.log(inventory);
+} else if (a2 === "take coat") {
+    console.log("welp, you\'re smart enough not to die of hypothermia.");
+    inventory.pop(0);
+    inventory.push("'coat '");
+    console.log(inventory + "has just been added to your inventory.")
+} else if (a2 === "leave house") {
+    console.log("it's raining really hard, that's probably not a good idea yet.")
+} else if (a2 === "sleep in bed") {
+    console.log("I probably shouldn't tell you this... but the world will be over by the time you wake up, bad call.")
+} else if (a2 === "kick dog") {
+    console.log("well aren't you F#$%&\'d up...")
+};
+a3 = readlineSecond.question("What would you like to do now? ", {
+  limit: ["take knife", "pet dog", "kick dog", "take coat", "check inventory", "leave house", "sleep in bed"],
+});  
+a4 = readlineSecond.question('Which color of signal? '); // It's limited again. 
+readlineSecond.setDefaultOptions({
+    limit: ['beef', 'chicken']
+});
+a5 = readlineSecond.question('Beef or Chicken? '); // Input is limited to new 2 things. 
+a6 = readlineSecond.question('And you? '); // It's limited to 2 things yet. 
 
-console.log("What now?");
 
-//multiple selections after single choice
-//ability to take item in room (knife)
-//ability to see command options
-//change the objects in room after player interaction
-//ability to take damage from actions (dog)
-//declaration of stats, inventory
-//ability to look at inventory
-//ability to exit room
-// -concepts to use-
-//while loop for options
-//if, else for options within while loop
-//for loop for statistics
-//map for calling arrays
-//higher order functions
-//constructor functions
-//separate file for inventory
-//separate file for player health
-
-var readline = require("readline-sync");
-
-
-var room = readline.question("What do you want to do?");
-while (room !== "look") {
-    console.log("You see a door to the outside, you hear the wind howling");
-    walking = readline.question("It's cozy in here, there's a storm outside ");
-
-    if (room !== "look") {
-        break;
-    }
-
-    console.log("There's not much to do in here.");
-    console.log("");
-}
-
-console.log("What now?");
-
-//list of possible commands
-//ability to interact with people (drunk homeless guy)
-//ability to access map from homeless guy
-//ability to to travel
-//first enemy battle (drunk baby)
-//enemy stats
-//dropped items
-//health regeneration
-//ability to equip items from inventory
-// -concepts to use-
-//constructor functions for enemy and inventory
-//while loop, for loop, if/else for traveling
-//while loop, for loop, map, math, if/else for fighting
-//while loop, for loop, if/else, ? for health
-//while loop , for loop, if/else, ? for damage
-//--
-//marsh/mountain
-//elemental damage from water(marsh) or fire(mountain)
-//fight 2 enemies (bog dudes or skeleton guys)
-//discover secret armor in marsh, or advanced weapon in mountain
-//discover portal
-//--
-//final boss in portal plane (massive conglomerate of drunk babies)
