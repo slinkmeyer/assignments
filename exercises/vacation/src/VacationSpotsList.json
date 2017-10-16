@@ -1,0 +1,24 @@
+[
+  {
+    "place": "Bangkok",
+    "activities": "hang out",
+    "price": "$200",
+    "airfare": "$935",
+    "days": "1",
+    "img": "https://i.imgur.com/3G0Pr6f.png"
+  },{
+    "place": "Chiang Mai",
+    "activities": "temples",
+    "price": "$700",
+    "airfare": "$335",
+    "days": "5",
+    "img": "https://i.imgur.com/CrBycyx.png"
+  },{
+    "place": "Phi Phi/ Khao Sok",
+    "activities": "beach",
+    "price": "$1000",
+    "airfare": "$335",
+    "days": "7",
+    "img": "https://i.imgur.com/us08MA2.png"
+  }
+]

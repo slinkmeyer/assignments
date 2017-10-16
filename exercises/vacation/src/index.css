@@ -1,0 +1,68 @@
+img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+div {
+  height: 300px;
+}
+
+h1 {
+  border: transparent;
+  border-right-width: 150px;
+  background-color: red;
+  opacity: 0.8;
+  margin: 1px;
+  display: block;
+  font-family: sans-serif;
+}
+
+h2 {
+  border: transparent;
+  background-color: gray;
+  opacity: 0.9;
+  display: inline;
+  font-family: sans-serif;
+}
+
+h3 {
+  border: transparent;
+  background-color: gray;
+  opacity: 0.9;
+  display: inline;
+  font-family: sans-serif;
+}
+
+h4 {
+  border: transparent;
+  background-color: gray;
+  opacity: 0.9;
+  margin: 0;
+  display: inline;
+  font-family: sans-serif;
+}
+
+.container {
+  border: transparent;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  margin-bottom: 250px;
+  display: inline-block;
+}
+
+.title {
+  margin-left: 28%;
+  font-family: sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 24px;
+  font: verdana;
+  letter-spacing: 10px;
+}
+
+.line {
+  letter-spacing: 0;
+  margin-left: 20%;
+}
