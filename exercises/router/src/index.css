@@ -1,0 +1,16 @@
+.app-wrapper{
+  height: 100vh;
+}
+
+.nav{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  border: solid;
+}
+
+.footer{
+    background-color: beige;
+}
